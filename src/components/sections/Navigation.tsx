@@ -63,7 +63,8 @@ export function Navigation() {
             className="text-xl font-bold text-foreground hover:text-accent-primary transition-colors"
             whileHover={{ scale: 1.02 }}
           >
-            <span className="gradient-text">theskdev</span>
+            <span className="gradient-text">SK</span>
+            <span className="text-foreground-muted">.</span>
           </motion.a>
 
           {/* Desktop Navigation */}

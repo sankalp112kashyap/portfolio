@@ -404,17 +404,18 @@ export const education: Education[] = [
 // PUBLICATIONS / RESEARCH
 // ============================================
 
+// Hidden until paper results are announced
 export const publications: Publication[] = [
-  {
-    id: "repowise-paper",
-    title: "RepoWise: A Conversational Framework for Mining and Reasoning About Project Repositories",
-    authors: "Sankalp Kashyap, et al.",
-    venue: "FSE 2026",
-    year: 2026,
-    abstract:
-      "A domain-aware conversational framework powered by LLMs that enables natural-language interaction with open-source software repositories, combining repository mining with AI-driven reasoning to surface insights into project documentation, governance, and sustainability.",
-    status: "Under Submission",
-  },
+  // {
+  //   id: "repowise-paper",
+  //   title: "RepoWise: A Conversational Framework for Mining and Reasoning About Project Repositories",
+  //   authors: "Sankalp Kashyap, et al.",
+  //   venue: "FSE 2026",
+  //   year: 2026,
+  //   abstract:
+  //     "A domain-aware conversational framework powered by LLMs that enables natural-language interaction with open-source software repositories, combining repository mining with AI-driven reasoning to surface insights into project documentation, governance, and sustainability.",
+  //   status: "Under Submission",
+  // },
 ];
 
 // ============================================

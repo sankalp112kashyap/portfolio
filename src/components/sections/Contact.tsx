@@ -20,41 +20,42 @@ export function Contact() {
 
       <div className="max-w-2xl mx-auto">
         <FadeInWhenVisible>
-          <div className="flex flex-col items-center space-y-8">
-            {/* Email */}
-            <a
-              href={`mailto:${personalInfo.email}`}
-              className="flex items-center gap-3 p-4 rounded-xl bg-background-secondary border border-border hover:border-accent-primary/50 transition-colors group w-full max-w-md"
-            >
-              <div className="w-10 h-10 rounded-lg bg-accent-primary/10 flex items-center justify-center group-hover:bg-accent-primary/20 transition-colors">
-                <Mail className="w-5 h-5 text-accent-primary" />
-              </div>
-              <div>
-                <p className="text-sm text-foreground-muted">Email</p>
-                <p className="text-foreground font-medium">
-                  {personalInfo.email}
-                </p>
-              </div>
-            </a>
+          <div className="flex flex-col items-center space-y-6">
+            {/* Email & Location - Horizontal */}
+            <div className="grid sm:grid-cols-2 gap-4 w-full">
+              <a
+                href={`mailto:${personalInfo.email}`}
+                className="flex items-center gap-3 p-4 rounded-xl bg-background-secondary border border-border hover:border-accent-primary/50 transition-colors group"
+              >
+                <div className="w-10 h-10 rounded-lg bg-accent-primary/10 flex items-center justify-center group-hover:bg-accent-primary/20 transition-colors">
+                  <Mail className="w-5 h-5 text-accent-primary" />
+                </div>
+                <div>
+                  <p className="text-sm text-foreground-muted">Email</p>
+                  <p className="text-foreground font-medium text-sm">
+                    {personalInfo.email}
+                  </p>
+                </div>
+              </a>
 
-            {/* Location */}
-            <a
-              href={personalInfo.locationUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 p-4 rounded-xl bg-background-secondary border border-border hover:border-accent-primary/50 transition-colors group w-full max-w-md"
-            >
-              <div className="w-10 h-10 rounded-lg bg-accent-secondary/10 flex items-center justify-center group-hover:bg-accent-secondary/20 transition-colors">
-                <MapPin className="w-5 h-5 text-accent-secondary" />
-              </div>
-              <div className="flex-1">
-                <p className="text-sm text-foreground-muted">Location</p>
-                <p className="text-foreground font-medium">
-                  {personalInfo.location}
-                </p>
-              </div>
-              <ArrowUpRight className="w-4 h-4 text-foreground-muted group-hover:text-accent-secondary transition-colors" />
-            </a>
+              <a
+                href={personalInfo.locationUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-4 rounded-xl bg-background-secondary border border-border hover:border-accent-primary/50 transition-colors group"
+              >
+                <div className="w-10 h-10 rounded-lg bg-accent-secondary/10 flex items-center justify-center group-hover:bg-accent-secondary/20 transition-colors">
+                  <MapPin className="w-5 h-5 text-accent-secondary" />
+                </div>
+                <div className="flex-1">
+                  <p className="text-sm text-foreground-muted">Location</p>
+                  <p className="text-foreground font-medium text-sm">
+                    {personalInfo.location}
+                  </p>
+                </div>
+                <ArrowUpRight className="w-4 h-4 text-foreground-muted group-hover:text-accent-secondary transition-colors" />
+              </a>
+            </div>
 
             {/* Social Links */}
             <div className="text-center">
@@ -65,7 +66,7 @@ export function Contact() {
             </div>
 
             {/* Availability */}
-            <div className="p-4 rounded-xl bg-gradient-to-br from-accent-primary/10 to-accent-secondary/10 border border-accent-primary/20 max-w-md w-full text-center">
+            <div className="p-4 rounded-xl bg-gradient-to-br from-accent-primary/10 to-accent-secondary/10 border border-accent-primary/20 w-full text-center">
               <div className="flex items-center justify-center gap-2 mb-2">
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />

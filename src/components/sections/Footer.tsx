@@ -23,7 +23,8 @@ export function Footer() {
               href="#"
               className="text-2xl font-bold text-foreground hover:text-accent-primary transition-colors inline-block mb-2"
             >
-              <span className="gradient-text">theskdev</span>
+              <span className="gradient-text">SK</span>
+              <span className="text-foreground-muted">.</span>
             </a>
             <p className="text-sm text-foreground-muted max-w-xs">
               {personalInfo.tagline}
@@ -51,7 +52,7 @@ export function Footer() {
         <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent mb-8" />
 
         {/* Bottom Row */}
-        <div className="flex flex-col items-center gap-4 text-sm text-foreground-muted">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-foreground-muted">
           <p className="flex items-center gap-1">
             Made with{" "}
             <Heart className="w-4 h-4 text-accent-tertiary fill-accent-tertiary" />{" "}
