@@ -94,7 +94,7 @@ export function Experience() {
                         </div>
                       </div>
                       <div className="flex flex-col items-start sm:items-end gap-1 text-sm text-foreground-muted">
-                        <div className="flex items-center gap-1">
+                        <div className="flex items-center gap-1 whitespace-nowrap">
                           <Calendar className="w-3 h-3" />
                           {exp.period}
                         </div>

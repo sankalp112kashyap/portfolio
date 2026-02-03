@@ -94,8 +94,8 @@ export const personalInfo = {
   lastName: "Kashyap",
   title: "Software Engineer & AI Researcher",
   tagline: "Building intelligent systems at the intersection of research and engineering",
-  email: "sankashyap@ucdavis.edu",
-  phone: "+1 (530) 220-3009",
+  email: "sankalp112kashyap@gmail.com",
+  phone: "+",
   location: "Davis, California",
   locationUrl: "https://www.google.com/maps/place/Davis,+CA",
   about: `I'm a Software Engineer and AI Researcher pursuing my Master's in Computer Science at UC Davis.
@@ -107,7 +107,7 @@ At DECAL Lab, I'm building RepoWise — an NSF and Sloan Foundation-funded LLM-p
 I specialize in distributed systems, machine learning, and full-stack development. My work at Danske Bank earned me the "Star of the Quarter" award among 1500+ employees, where I architected micro-frontend systems scaling across 200+ applications.
 
 I'm passionate about turning complex research ideas into production-ready systems that make a real impact.`,
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "https://drive.google.com/file/d/1tJ4j5nFdyItulGIHhiRLFR-01GEAj2Vz/view?usp=drive_link",
   avatarUrl: "/images/me.jpg",
 };
 
@@ -128,7 +128,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: "Email",
-    url: "mailto:sankashyap@ucdavis.edu",
+    url: "mailto:sankalp112kashyap@gmail.com",
     icon: "mail",
   },
 ];

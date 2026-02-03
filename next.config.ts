@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
   // Base path for GitHub Pages (only in production)
   basePath: isProduction ? "/portfolio" : "",
 
+  // Asset prefix for static files (images, etc.)
+  assetPrefix: isProduction ? "/portfolio" : "",
+
   // Trailing slashes help with GitHub Pages routing
   trailingSlash: true,
 };

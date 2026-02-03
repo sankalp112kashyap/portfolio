@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { MapPin, Calendar, Award, ExternalLink } from "lucide-react";
 import { personalInfo } from "@/lib/data";
 import { Section, SectionHeader, FadeInWhenVisible } from "@/components/ui";
@@ -27,12 +26,11 @@ export function About() {
           <div className="relative">
             {/* Profile Image */}
             <div className="relative aspect-square rounded-2xl overflow-hidden bg-background-secondary border border-border">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src={personalInfo.avatarUrl}
                 alt={personalInfo.name}
-                fill
-                className="object-cover"
-                priority
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
 
