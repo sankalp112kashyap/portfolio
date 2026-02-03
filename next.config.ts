@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 
+const isProduction = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
   // Enable static export for GitHub Pages
   output: "export",
@@ -9,8 +11,8 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 
-  // Base path for GitHub Pages project site
-  basePath: "/portfolio",
+  // Base path for GitHub Pages (only in production)
+  basePath: isProduction ? "/portfolio" : "",
 
   // Trailing slashes help with GitHub Pages routing
   trailingSlash: true,

@@ -98,11 +98,11 @@ export const personalInfo = {
   phone: "+1 (530) 220-3009",
   location: "Davis, California",
   locationUrl: "https://www.google.com/maps/place/Davis,+CA",
-  about: `I'm a Software Engineer and AI Researcher pursuing my Master's in Computer Science at UC Davis with a perfect 4.0 GPA.
+  about: `I'm a Software Engineer and AI Researcher pursuing my Master's in Computer Science at UC Davis.
 
-My journey spans from building nano-satellites under ISRO guidance at Manipal to designing encryption systems for AWS DynamoDB's 1M+ customer base.
+My journey spans from building nano-satellites under ISRO guidance at Manipal to adding guardrails in the encryption systems for AWS DynamoDB's multi-Region Strongly Consistent tables.
 
-At DECAL Lab, I'm building RepoWise — an NSF and Sloan Foundation-funded LLM-powered tool for OSS repository analysis that achieved 97.6% intent classification accuracy.
+At DECAL Lab, I'm building RepoWise — an NSF and Sloan Foundation-funded LLM-powered tool for OSS repository analysis.
 
 I specialize in distributed systems, machine learning, and full-stack development. My work at Danske Bank earned me the "Star of the Quarter" award among 1500+ employees, where I architected micro-frontend systems scaling across 200+ applications.
 
