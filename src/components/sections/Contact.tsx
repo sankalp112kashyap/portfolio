@@ -99,12 +99,12 @@ export function Contact() {
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
                 </span>
                 <span className="text-sm font-medium text-foreground">
-                  Open to Opportunities
+                  Open for Collaborations
                 </span>
               </div>
               <p className="text-sm text-foreground-muted">
-                I'm actively looking for full-time roles and research
-                collaborations in AI/ML and Software Engineering.
+                I'm actively looking for collaborations in AI research
+                and building AI-powered products.
               </p>
             </div>
           </FadeInWhenVisible>

@@ -281,7 +281,7 @@ export const projects: Project[] = [
     technologies: ["React", "FastAPI", "PostgreSQL", "MinIO", "AES-256-GCM", "Web Crypto API", "Docker"],
     category: "systems",
     featured: true,
-    github: "https://github.com/sankalp112kashyap",
+    github: "https://github.com/HealthCryption",
   },
   {
     id: "catheter-classification",
@@ -304,7 +304,7 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript", "FastAPI", "ResilientDB", "TailwindCSS", "SQLite"],
     category: "web",
     featured: true,
-    github: "https://github.com/sankalp112kashyap",
+    github: "https://github.com/sankalp112kashyap/Coinsensus-app-frontend",
   },
   {
     id: "radreport",
