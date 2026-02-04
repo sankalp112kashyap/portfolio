@@ -327,6 +327,7 @@ export const projects: Project[] = [
     technologies: ["C++", "Embedded Systems", "PID Control", "MATLAB", "Satellite Systems", "ADCS"],
     category: "systems",
     featured: true,
+    demo: "https://parikshitspace.in/",
   },
   {
     id: "allergy-card",
