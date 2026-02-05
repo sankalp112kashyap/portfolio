@@ -49,8 +49,8 @@ export default function Home() {
         {/* Education Section */}
         <Education />
 
-        {/* Personal Section */}
-        <Personal />
+        {/* Personal Section - Hidden for now */}
+        {/* <Personal /> */}
 
         {/* Contact Section */}
         <Contact />

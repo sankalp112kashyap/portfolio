@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowDown, Sparkles } from "lucide-react";
+import { ArrowDown, Briefcase, FolderOpen } from "lucide-react";
 import { personalInfo } from "@/lib/data";
 import { Button, SocialLinks, AnimatedWords } from "@/components/ui";
 
@@ -114,23 +114,24 @@ export function Hero() {
             <Button
               variant="primary"
               size="lg"
-              icon={<Sparkles className="w-5 h-5" />}
+              icon={<Briefcase className="w-5 h-5" />}
+              onClick={() => {
+                const element = document.getElementById("experience");
+                element?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              My Experience
+            </Button>
+            <Button
+              variant="secondary"
+              size="lg"
+              icon={<FolderOpen className="w-5 h-5" />}
               onClick={() => {
                 const element = document.getElementById("projects");
                 element?.scrollIntoView({ behavior: "smooth" });
               }}
             >
-              View My Work
-            </Button>
-            <Button
-              variant="secondary"
-              size="lg"
-              onClick={() => {
-                const element = document.getElementById("contact");
-                element?.scrollIntoView({ behavior: "smooth" });
-              }}
-            >
-              Get in Touch
+              View Projects
             </Button>
           </motion.div>
 
