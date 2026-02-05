@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { MapPin, Calendar, Award, ExternalLink } from "lucide-react";
 import { personalInfo } from "@/lib/data";
+import { getAssetPath } from "@/lib/utils";
 import { Section, SectionHeader, FadeInWhenVisible } from "@/components/ui";
 
 export function About() {
@@ -28,7 +29,7 @@ export function About() {
             {/* Profile Image */}
             <div className="relative aspect-square rounded-2xl overflow-hidden bg-background-secondary border border-border">
               <Image
-                src={personalInfo.avatarUrl}
+                src={getAssetPath(personalInfo.avatarUrl)}
                 alt={personalInfo.name}
                 fill
                 className="object-cover"
