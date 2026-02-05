@@ -48,7 +48,8 @@ export function Skills() {
         ))}
       </div>
 
-      {/* Visual Skills Bar (Optional Enhancement) */}
+      {/* Core Expertise - Hidden for now */}
+      {/*
       <FadeInWhenVisible delay={0.3} className="mt-12">
         <div className="p-8 rounded-2xl bg-gradient-to-br from-accent-primary/5 to-accent-secondary/5 border border-border">
           <h3 className="text-lg font-semibold text-foreground mb-6 text-center">
@@ -84,6 +85,7 @@ export function Skills() {
           </div>
         </div>
       </FadeInWhenVisible>
+      */}
     </Section>
   );
 }

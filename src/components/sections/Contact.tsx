@@ -66,7 +66,7 @@ export function Contact() {
             </div>
 
             {/* Availability */}
-            <div className="p-4 rounded-xl bg-gradient-to-br from-accent-primary/10 to-accent-secondary/10 border border-accent-primary/20 w-full text-center">
+            <div className="p-4 rounded-xl bg-gradient-to-br from-accent-primary/10 to-accent-secondary/10 border border-accent-primary/20 max-w-md w-full text-center">
               <div className="flex items-center justify-center gap-2 mb-2">
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
