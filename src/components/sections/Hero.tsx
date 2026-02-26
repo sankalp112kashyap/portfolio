@@ -86,20 +86,20 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex flex-wrap items-center justify-center gap-3 mb-10"
+            className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 mb-10 text-sm text-foreground-muted"
           >
             {[
-              "UC Davis",
               "AWS",
-              "DECAL Lab",
+              "UC Davis Research",
+              "Full-Stack",
               "LLMs",
               "Vision-Language AI",
-            ].map((item, index) => (
-              <span
-                key={item}
-                className="px-4 py-1.5 text-sm rounded-full bg-white/5 text-foreground-muted border border-border"
-              >
-                {item}
+            ].map((item, index, arr) => (
+              <span key={item} className="flex items-center gap-2">
+                <span>{item}</span>
+                {index < arr.length - 1 && (
+                  <span className="text-accent-primary/60">•</span>
+                )}
               </span>
             ))}
           </motion.div>

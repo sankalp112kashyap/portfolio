@@ -269,7 +269,6 @@ export const projects: Project[] = [
     technologies: ["React", "FastAPI", "Mistral 7B", "ChromaDB", "RAG", "Python", "LangChain"],
     category: "ai",
     featured: true,
-    demo: "https://repowise.github.io/RepoWise-website",
   },
   {
     id: "healthcryption",
